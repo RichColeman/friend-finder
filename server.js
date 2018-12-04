@@ -8,15 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 require("./app/routing/htmlRoutes")(app);
 
-
-
-
-
-
-
-
-
-
+// setup listener
 app.listen(PORT, function () {
     console.log(`Server listening on: http://localhost:` + PORT);
 });
