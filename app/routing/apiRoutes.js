@@ -1,3 +1,5 @@
+let friendsObj = require("../data/friends.js");
+
 module.exports = function (app) {
     require("../data/friends.js");
     app.get("/api/friends", function (req, res) {

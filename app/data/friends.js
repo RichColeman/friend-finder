@@ -1,7 +1,4 @@
-require("/server.js")
-module.exports = function (app) {
-
-    var friendsObj = [{
+var friendsObj = [{
         "name": "Ahmed",
         "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores": [
@@ -77,4 +74,5 @@ module.exports = function (app) {
             3
         ]
     }];
-}
+    module.exports = friendsObj;
+
