@@ -3,7 +3,6 @@ const PORT = process.env.PORT || 3000;
 const path = require("path");
 const app = express();
 let friendsObj = require("./app/data/friends");
-// require("./app/routing/apiRoutes")(app);
 
 // setup middleware
 app.use(express.urlencoded({
@@ -34,10 +33,6 @@ app.post("/api/friends", function (req, res) {
     console.log(newFriend);
     friendsObj.push(newFriend)
     res.json(newFriend);
-
-    // start compatibility logic
-    // find new friend's score
-    
 })
 
 // setup listener
