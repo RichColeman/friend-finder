@@ -1,6 +1,6 @@
 var friendsObj = [{
-        "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Andrew",
+        "photo": "https://www.ioimprov.com/files/2017/04/andrew-robinson.jpg",
         "scores": [
             5,
             1,
@@ -15,7 +15,7 @@ var friendsObj = [{
         ]
     }, {
         "name": "Miranda",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://www.ioimprov.com/files/2018/01/miranda-rozas_headshot.png",
         "scores": [
             2,
             4,
@@ -30,7 +30,7 @@ var friendsObj = [{
         ]
     }, {
         "name": "Janelle",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo": "https://www.ioimprov.com/files/2018/01/Janelle-Blasdel-Headshot.jpg",
         "scores": [
             1,
             3,
@@ -44,8 +44,8 @@ var friendsObj = [{
             5
         ]
     }, {
-        "name": "Ryan",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Rich",
+        "photo": "https://www.ioimprov.com/files/2018/01/Rich-Coleman-Headshot_2.jpg",
         "scores": [
             5,
             5,
@@ -59,8 +59,8 @@ var friendsObj = [{
             2
         ]
     }, {
-        "name": "Andrew",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name": "Nick",
+        "photo": "https://www.ioimprov.com/files/2018/01/nick-wilson.jpg",
         "scores": [
             5,
             1,
