@@ -206,7 +206,7 @@
             let scoreArr = newFriendElem.scores;
             for (i = 0; i < newFriendElem.scores.length; i++) {
               score += parseInt(scoreArr[i]);
-            }
+            };
 
             // make an array of all the friends' scores
             let answerArr = [];
@@ -216,18 +216,19 @@
               totalSum = Math.abs(score - friendScore);
               answerArr.push(totalSum);
               totalSum = 0;
-            }
+            };
             let smallestScore = Math.min(...answerArr);
             for (i = 0; i < data.length - 1; i++) {
               if (smallestScore === answerArr[i]) {
                 let bestFriend = data[i];
                 $('#results-modal').modal('show');
                 $('#match-name').text("Your best friend is " + bestFriend.name);
-                $('#match-img').attr("src", bestFriend.photo).css(
-                  "width", "100%")
-              }
-            }
-          })
+                $('#match-img').attr("src", bestFriend.photo).css("width", "100%");
+                $(`#q1,#q2,#q3,#q4,#q5,#q6,#q7,#q8,#q9,#q10`).empty();
+                $(`#name, #photo`).val("");
+              };
+            };
+          });
         });
     });
   </script>
