@@ -26,17 +26,19 @@ app.get("/api/friends", function (req, res) {
 });
 
 app.post("/api/friends", function (req, res) {
+    // push new friend to friends object
     let newFriend = req.body;
-    // newFriend.routeName = newFriend.name.replace(/\s+/g, "").toLowerCase();
+    console.log(newFriend.scores);
+    newFriend.routeName = newFriend.name.replace(/\s+/g, "").toLowerCase();
     console.log("New Friend info:")
     console.log(newFriend);
     friendsObj.push(newFriend)
     res.json(newFriend);
+
+    // start compatibility logic
+    // find new friend's score
+    
 })
-
-
-
-
 
 // setup listener
 app.listen(PORT, function () {
